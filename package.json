@@ -1,0 +1,17 @@
+{
+  "name": "demo-agent",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A static Demo Agent profile website ready for GitHub and Vercel.",
+  "scripts": {
+    "dev": "python3 -m http.server 3000",
+    "start": "python3 -m http.server 3000"
+  },
+  "keywords": [
+    "demo-agent",
+    "vercel",
+    "github",
+    "static-site"
+  ],
+  "license": "UNLICENSED"
+}

@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta
+      name="description"
+      content="Demo Agent is a crisp demo profile website built for GitHub and Vercel."
+    >
+    <meta name="theme-color" content="#f6f2ea">
+    <title>Demo Agent</title>
+    <link rel="preload" href="assets/demo-agent-hero.png" as="image">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header class="site-header" aria-label="Site header">
+      <a class="brand" href="#top" aria-label="Demo Agent home">
+        <span class="brand-mark" aria-hidden="true">DA</span>
+        <span>Demo Agent</span>
+      </a>
+      <nav class="site-nav" aria-label="Primary navigation">
+        <a href="#profile">Profile</a>
+        <a href="#workflow">Workflow</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="hero" aria-labelledby="hero-title">
+        <img
+          class="hero-image"
+          src="assets/demo-agent-hero.png"
+          alt="Modern workspace with a laptop showing a glowing assistant interface"
+        >
+        <div class="hero-overlay" aria-hidden="true"></div>
+        <div class="hero-content">
+          <p class="eyebrow">GitHub + Vercel demo profile</p>
+          <h1 id="hero-title">Demo Agent</h1>
+          <p class="hero-copy">
+            A focused profile page for an assistant that turns rough ideas into clean launches.
+          </p>
+          <div class="hero-actions" aria-label="Primary actions">
+            <a class="button primary" href="#profile">View Profile</a>
+            <a class="button secondary" href="https://vercel.com/new" rel="noreferrer">Deploy on Vercel</a>
+          </div>
+        </div>
+      </section>
+
+      <section id="profile" class="section profile-section" aria-labelledby="profile-title">
+        <div class="section-heading">
+          <p class="eyebrow">Profile</p>
+          <h2 id="profile-title">Built to move from idea to shipped page.</h2>
+        </div>
+        <div class="profile-grid">
+          <article class="profile-card">
+            <span class="metric">01</span>
+            <h3>Fast Prototype</h3>
+            <p>Starts with a clear page structure, polished copy, and deployment-ready defaults.</p>
+          </article>
+          <article class="profile-card">
+            <span class="metric">02</span>
+            <h3>Clean Handoff</h3>
+            <p>Includes project docs, Vercel configuration, and GitHub-friendly repository hygiene.</p>
+          </article>
+          <article class="profile-card">
+            <span class="metric">03</span>
+            <h3>Responsive Finish</h3>
+            <p>Adapts across phones, tablets, and desktop screens without extra setup.</p>
+          </article>
+        </div>
+      </section>
+
+      <section id="workflow" class="section workflow-section" aria-labelledby="workflow-title">
+        <div class="section-heading">
+          <p class="eyebrow">Workflow</p>
+          <h2 id="workflow-title">A simple path for public demos.</h2>
+        </div>
+        <ol class="timeline">
+          <li>
+            <span>Design</span>
+            <p>Create the profile experience and keep the core message visible immediately.</p>
+          </li>
+          <li>
+            <span>Commit</span>
+            <p>Push the static project to GitHub so every change has a clear history.</p>
+          </li>
+          <li>
+            <span>Deploy</span>
+            <p>Import the repository into Vercel and publish the site from the main branch.</p>
+          </li>
+        </ol>
+      </section>
+
+      <section id="contact" class="section contact-section" aria-labelledby="contact-title">
+        <div>
+          <p class="eyebrow">Contact</p>
+          <h2 id="contact-title">Ready for your next demo.</h2>
+        </div>
+        <a class="button primary" href="mailto:hello@example.com">hello@example.com</a>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <span>Demo Agent</span>
+      <span>Static site ready for GitHub and Vercel.</span>
+    </footer>
+  </body>
+</html>
