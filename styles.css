@@ -231,6 +231,25 @@ mark {
   font-weight: 950;
 }
 
+.section-number {
+  margin-bottom: 30px;
+  font-size: 5rem;
+  line-height: 0.9;
+  font-weight: 950;
+}
+
+.section-number-light {
+  color: var(--orange-light);
+}
+
+.section-number-dark {
+  color: var(--pink);
+}
+
+.section-number-market {
+  color: var(--orange-dark);
+}
+
 .statement-copy h2,
 .story-grid h2,
 .market-copy h2,
@@ -467,6 +486,11 @@ mark {
   }
 
   .statement-number {
+    font-size: 3.4rem;
+  }
+
+  .section-number {
+    margin-bottom: 22px;
     font-size: 3.4rem;
   }
 
