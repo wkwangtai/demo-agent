@@ -286,6 +286,10 @@ mark {
   border-bottom: 1px solid var(--line-dark);
 }
 
+.image-bridge {
+  margin-top: -1px;
+}
+
 .full-width-image img {
   display: block;
   width: 100%;
@@ -452,6 +456,14 @@ mark {
   .cta-section {
     padding-top: 72px;
     padding-bottom: 72px;
+  }
+
+  .why-section {
+    padding-bottom: 44px;
+  }
+
+  .closing-section {
+    padding-top: 44px;
   }
 
   .statement-number {
