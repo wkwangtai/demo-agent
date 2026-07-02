@@ -102,6 +102,19 @@ button {
   border-color: var(--orange-dark);
 }
 
+.top-site-image {
+  margin: 0;
+  padding-top: 87px;
+  background: var(--black);
+  border-bottom: 1px solid var(--line-dark);
+}
+
+.top-site-image img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
 .hero {
   position: relative;
   min-height: 92svh;
@@ -458,6 +471,10 @@ mark {
   .hero {
     min-height: 84svh;
     padding-top: 150px;
+  }
+
+  .top-site-image {
+    padding-top: 135px;
   }
 
   h1 {
