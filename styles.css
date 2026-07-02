@@ -73,15 +73,44 @@ button {
 
 .brand-mark {
   display: grid;
-  min-width: 62px;
+  width: 48px;
   height: 42px;
-  padding: 0 10px;
   place-items: center;
   color: var(--black);
   background: var(--orange-dark);
   border-radius: 4px;
   font-size: 0.82rem;
   font-weight: 950;
+}
+
+.hamburger-mark {
+  align-content: center;
+  gap: 5px;
+}
+
+.hamburger-mark span {
+  display: block;
+  width: 22px;
+  height: 3px;
+  background: var(--black);
+  border-radius: 999px;
+  transition:
+    transform 180ms ease,
+    width 180ms ease;
+}
+
+.brand:hover .hamburger-mark span:first-child {
+  transform: translateY(2px);
+  width: 16px;
+}
+
+.brand:hover .hamburger-mark span:nth-child(2) {
+  width: 26px;
+}
+
+.brand:hover .hamburger-mark span:last-child {
+  transform: translateY(-2px);
+  width: 16px;
 }
 
 .site-nav {
